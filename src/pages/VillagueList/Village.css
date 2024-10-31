@@ -1,0 +1,49 @@
+.village-list {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.village-list h1 {
+  text-align: center;
+  color: #995900;
+  font-size: 28px;
+  font-family: "Anime Ace", sans-serif;
+  margin-bottom: 20px;
+}
+
+.village-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.village-list li {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.village-list li:hover {
+  background-color: #8ded3466;
+  transform: scale(1.02);
+}
+
+.village-list h2 {
+  color: #ff9800;
+  font-size: 20px;
+  margin: 0;
+  font-family: "Anime Ace", sans-serif;
+}
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+}

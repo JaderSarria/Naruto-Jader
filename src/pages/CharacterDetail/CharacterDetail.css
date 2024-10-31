@@ -1,0 +1,110 @@
+.character-detail {
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9ea;
+}
+
+.character-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.character-detail h2 {
+  color: #ff9800;
+  font-size: 24px;
+  font-family: "Anime Ace", sans-serif;
+  margin: 0;
+  margin-right: 10px; /* Espacio entre el nombre y el ícono */
+}
+
+/* Ajusta la clase para el icono de favorito */
+.favorite-icon {
+  cursor: pointer;
+  font-size: 24px;
+  color: #909090;
+  transition: color 0.3s ease; /* Suaviza el cambio de color */
+}
+
+.favorite-icon:hover {
+  color: #ffd89e;
+}
+
+/* Agrega especificidad para el estado de "favorito" */
+.favorite-icon.favorited i {
+  color: #f44336; /* Cambia a rojo cuando está en modo favorito */
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.large-image {
+  width: 30%;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.thumbnail-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.thumbnail {
+  width: 50px;
+  height: auto;
+  cursor: pointer;
+  margin-bottom: 5px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  transition: border 0.3s, transform 0.2s;
+}
+
+.thumbnail:hover {
+  border: 2px solid #ff9800;
+  transform: scale(1.1);
+}
+
+.character-detail p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.character-detail strong {
+  color: #ff5722;
+}
+
+.character-detail a {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #f3b600;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.character-detail a:hover {
+  background-color: #b56400;
+  transform: scale(1.05);
+}
+
+.favorite-icon .favorited {
+  color: #f49b36 !important; /* Fuerza el color rojo para probar */
+}
+
+.favorite-icon:hover .favorited {
+  color: #f49b36 !important; /* Asegura que el color se mantenga rojo al hacer hover */
+}

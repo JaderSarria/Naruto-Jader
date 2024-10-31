@@ -1,0 +1,55 @@
+.kekkei-genkai-list {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.kekkei-genkai-list h1 {
+  text-align: center;
+  color: #d93a3a;
+  font-size: 28px;
+  font-family: "Anime Ace", sans-serif;
+  margin-bottom: 20px;
+}
+
+.kekkei-genkai-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.kekkei-genkai-list li {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.kekkei-genkai-list li:hover {
+  background-color: #ff5252bc;
+  transform: scale(1.02);
+}
+
+.kekkei-genkai-list h2 {
+  color: #000000;
+  font-size: 20px;
+  margin: 0;
+  font-family: "Anime Ace", sans-serif;
+}
+
+.kekkei-genkai-list p {
+  color: #333;
+  font-size: 16px;
+  margin: 5px 0 0;
+}
+
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+}
